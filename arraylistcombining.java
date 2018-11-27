@@ -30,14 +30,16 @@ public class arraylistcombining{
 	}
 
 	public static ArrayList<Integer> commaList(ArrayList<Integer> list){
-		for(int i = 0; i < list.size(); i++){
-			if(i == list.size())
-				break;
+		for(int i = 0; i < list.size()-1; i++)
 			System.out.print(list.get(i)+", ");
-		}
+		System.out.println(list.get(list.size()-1));
 
 		return list;
 	}
 
+	public static ArrayList<Integer> removeDuplicates(ArrayList<Integer> list){
+
+		return list;
+	}
 
 }
